@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "public/*": ["./public/*"],
+      "common/*": ["./src/common/*"],
+      "templates/*": ["./src/templates/*"],
+      "mock/*": ["./src/mock/*"],
+      "provider/*": ["./src/provider/*"],
+      "pages/*": ["./src/pages/*"],
+      "utils/*": ["./src/utils/*"]
+    },
+    "target": "es2018",
+    "checkJs": true,
+    "lib": ["es5", "es6", "dom", "dom.iterable"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "sourceMap": true,
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
