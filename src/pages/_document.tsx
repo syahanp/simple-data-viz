@@ -1,7 +1,7 @@
 import React from "react"
 import Document, { Html, Head, Main, NextScript } from "next/document"
 
-class CustomDocument extends Document {
+export default class CustomDocument extends Document {
   render() {
     return (
       <Html lang="id">
@@ -30,5 +30,3 @@ class CustomDocument extends Document {
     )
   }
 }
-
-export default CustomDocument
